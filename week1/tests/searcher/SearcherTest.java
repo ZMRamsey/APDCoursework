@@ -5,6 +5,7 @@ import arrayGenerator.CleverRandomListingGenerator;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 /**
  * @author Hugh Osborne
@@ -26,7 +27,7 @@ abstract class SearcherTest {
      * @param index the index (the "k" value)
      * @throws IndexingError if k is out of bounds for n
      */
-    private void testSearcher(int arraySize,int index) throws IndexingError {
+    private void testSearcher(int arraySize, int index) throws IndexingError {
         ArrayGenerator generator = new CleverRandomListingGenerator(arraySize);
         Searcher search = createSearcher(generator.getArray(), index);
         assertEquals(arraySize - index, search.findElement());
@@ -87,8 +88,39 @@ abstract class SearcherTest {
     }
 
     @Test
-    void test956thin1000() throws IndexingError {
+    void test956thIn1000() throws IndexingError {
         testSearcher(1000, 956);
+    }
+
+    @Test
+    void test1stIn1() throws IndexingError{
+        testSearcher(1, 1);
+    }
+
+    @Test
+    void testMinusNumberError() throws IndexingError {
+        try{
+            testSearcher(50, -1);
+        } catch (IndexingError indexingError)
+        {
+            //Test successful
+        }
+    }
+
+    @Test
+    void testOutOfBounds() throws IndexingError {
+        try{
+            testSearcher(100, 103);
+            fail("Expected indexing error didn't occur");
+        } catch (IndexingError indexingError)
+        {
+            //Successful test
+        }
+    }
+
+    @Test
+    void test500000000thIn1000000000() throws IndexingError {
+        testSearcher(10000000, 5000000);
     }
 
 }

@@ -52,7 +52,7 @@ public class FullCleverSearcher extends Searcher {
         }
         else
         {
-            int c = fullArray.length - k;
+            int c = (fullArray.length + 1) - k;
 
             Integer[] testingArray = new Integer[c];
 
@@ -63,7 +63,7 @@ public class FullCleverSearcher extends Searcher {
 
             Arrays.sort(testingArray, Collections.reverseOrder());
             //find kth smallest
-            for (int i = c-1; i < fullArray.length; i++) {
+            for (int i = c; i < fullArray.length; i++) {
                 testingElement = fullArray[i];
                 for (int j = 0; j < testingArray.length; j++) {
                     if (testingElement < testingArray[j]) {

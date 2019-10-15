@@ -44,6 +44,5 @@ public class CleverSearcher extends Searcher
             }
         }
         return testingArray[0];
-
     }
 }
