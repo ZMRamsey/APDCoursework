@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af1912ed-21cc-428a-8ea5-d9bffddd0eca" name="Default" comment="" />
+    <list default="true" id="af1912ed-21cc-428a-8ea5-d9bffddd0eca" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/ArrayGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/ArrayGenerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/CleverRandomListingGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/CleverRandomListingGenerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/CleverRandomListingGeneratorTimer.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/CleverRandomListingGeneratorTimer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/RandomListingGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/RandomListingGenerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/SimpleRandomListingGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/SimpleRandomListingGenerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/SimpleRandomListingGeneratorTimer.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/SimpleRandomListingGeneratorTimer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/SortedListingGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/SortedListingGenerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/ArrayGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/ArrayGenerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/CleverRandomListingGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/CleverRandomListingGenerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/CleverRandomListingGeneratorTimer.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/CleverRandomListingGeneratorTimer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/RandomListingGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/RandomListingGenerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/SimpleRandomListingGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/SimpleRandomListingGenerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/SimpleRandomListingGeneratorTimer.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/SimpleRandomListingGeneratorTimer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/SortedListingGenerator.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/class-use/SortedListingGenerator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/arrayGenerator/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/arrayGenerator/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/searcher/Searcher.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/searcher/Searcher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/searcher/SimpleSearcher.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/searcher/SimpleSearcher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/searcher/SimpleSearcherTimer.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/searcher/SimpleSearcherTimer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/searcher/class-use/Searcher.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/searcher/class-use/Searcher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/searcher/class-use/SimpleSearcher.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/searcher/class-use/SimpleSearcher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/searcher/class-use/SimpleSearcherTimer.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/searcher/class-use/SimpleSearcherTimer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/searcher/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/searcher/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/searcher/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/searcher/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/searcher/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/searcher/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/searcher/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/searcher/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/timer/Timer.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/timer/Timer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/timer/class-use/Timer.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/timer/class-use/Timer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/timer/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/timer/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/timer/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/timer/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/timer/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/timer/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/timer/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/timer/package-use.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +101,22 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1233350184">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/searcher/CleverSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+            <state relative-caret-position="675">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -63,12 +124,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/searcher/FullCleverSearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+            <state relative-caret-position="147">
+              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/timer/searcher/FullCleverSearcherTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+            <state relative-caret-position="525">
+              <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/timer/searcher/CleverSearcherTimer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="435">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,6 +175,9 @@
     <replaceStrings>
       <replace>createArrayGenerator</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -152,15 +214,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="y" value="24" />
     <option name="width" value="939" />
     <option name="height" value="819" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -168,6 +232,11 @@
             <path>
               <item name="week1" type="b2602c69:ProjectViewProjectNode" />
               <item name="week1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="week1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="week1" type="462c0819:PsiDirectoryNode" />
+              <item name="javadoc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="week1" type="b2602c69:ProjectViewProjectNode" />
@@ -224,7 +293,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -432,10 +500,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="939" height="819" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="24" width="939" height="819" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23968785" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24526198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -445,7 +512,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287483" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3287483" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39792746" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -549,13 +616,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/searcher/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrayGenerator/package-info.java">
       <provider selected="true" editor-type-id="text-editor" />
@@ -677,13 +738,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/searcher/CleverSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="45" column="31" lean-forward="true" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/searcher/CleverSearcherTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -698,20 +752,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/timer/searcher/CleverSearcherTimer.java">
+    <entry file="file://$PROJECT_DIR$/src/searcher/CleverSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="675">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timer/searcher/FullCleverSearcherTimer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/timer/searcher/FullCleverSearcherTimer.java">
+    <entry file="file://$PROJECT_DIR$/timer/searcher/CleverSearcherTimer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="37" column="58" lean-forward="true" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+        <state relative-caret-position="435">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -720,12 +781,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/searcher/FullCleverSearcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="62" column="1" lean-forward="true" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        <state relative-caret-position="147">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
           </folding>
         </state>
       </provider>
