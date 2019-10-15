@@ -29,6 +29,7 @@ public abstract class Searcher {
 
     /**
      * Get this Searcher's index
+     * @return the index this Searcher searches for
      */
     int getIndex() { return k; }
 

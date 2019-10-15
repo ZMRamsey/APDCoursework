@@ -81,4 +81,14 @@ abstract class SearcherTest {
         testSearcher(1000000,4);
     }
 
+    @Test
+    void test9thIn10() throws IndexingError {
+        testSearcher(10, 9);
+    }
+
+    @Test
+    void test956thin1000() throws IndexingError {
+        testSearcher(1000, 956);
+    }
+
 }
