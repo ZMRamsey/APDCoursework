@@ -9,7 +9,12 @@ public class SwapTest {
     @Test
     void testInt()
     {
-        int testArray[];
-        //testArray = [5,7,3,2,0,66];
+        Integer[] testArray = new Integer[3];
+        testArray[0] = 1;
+        testArray[1] = 2;
+        testArray[2] = 3;
+        Swap.swap(testArray, 0, 2);
+        assertEquals(testArray[0], 3);
+
     }
 }

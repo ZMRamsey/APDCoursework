@@ -3,7 +3,7 @@ package genericMethods;
 public class Swap {
 
     //Put method here.
-    public <T> T[] swap(T[] array, int var1, int var2)
+    public static <T> T[] swap(T[] array, int var1, int var2)
     {
         T handler;
         if (var1 < array.length && var2 < array.length) {
