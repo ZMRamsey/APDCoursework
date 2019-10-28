@@ -101,9 +101,10 @@ abstract class SearcherTest {
     void testMinusNumberError() throws IndexingError {
         try{
             testSearcher(50, -1);
+            fail("Expected indexing error didn't occur");
         } catch (IndexingError indexingError)
         {
-            //Test successful
+            //Successful test
         }
     }
 
@@ -118,9 +119,9 @@ abstract class SearcherTest {
         }
     }
 
-    @Test
-    void test500000000thIn1000000000() throws IndexingError {
-        testSearcher(10000000, 5000000);
-    }
+    //@Test
+    //void test500000000thIn1000000000() throws IndexingError {
+    //    testSearcher(10000000, 5000000);
+    //}
 
 }
