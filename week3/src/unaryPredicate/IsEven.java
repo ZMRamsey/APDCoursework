@@ -17,8 +17,8 @@ public class IsEven implements UnaryPredicate<Integer> {
     /**
      * Test whether a number is even.
      *
-     * @param n the number t be tested
-     * @return true iff n is even
+     * @param n the number to be tested
+     * @return true if n is even
      */
     @Override
     public boolean test(Integer n) {
