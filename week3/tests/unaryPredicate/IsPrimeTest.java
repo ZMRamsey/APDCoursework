@@ -22,10 +22,10 @@ public class IsPrimeTest {
     void testTwenty(){assertFalse(predicate.test(20));}
 
     @Test
-    void testFiftyNine(){assertTrue(predicate.test(59));}
+    void testSeventyThree(){assertTrue(predicate.test(73));}
 
     @Test
-    void testEightFiveThree(){assertTrue(predicate.test(853));}
+    void testSixThreeOne(){assertTrue(predicate.test(631));}
 
     @Test
     void testMinusFive(){assertFalse(predicate.test(-5));}

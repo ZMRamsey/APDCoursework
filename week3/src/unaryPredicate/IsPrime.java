@@ -15,22 +15,29 @@ public class IsPrime implements UnaryPredicate<Integer> {
     public boolean test(Integer n) {
         if (n > 0) {
             if (n <= 2) {
-                return n != 1;
+                //if n is either 2 or 1, return true for 2, false for 1
+                return n == 2;
             } else {
+                //Check if even, if it is return false
                 if (n % 2 != 0) {
-                    for (int i = 3; i < java.lang.Math.sqrt(n); n++)
+                    //Run through integers from 3 to Sqrt of number to find factors
+                    for (int i = 3; i < java.lang.Math.sqrt(n); i++)
                     {
+                        //Check if i is a factor of n
                         if (n % i == 0)
                         {
                             return false;
                         }
                     }
+                    //If no factors are found, it's prime
                     return true;
                 } else {
+                    //Return false if even
                     return false;
                 }
             }
         }
+        //Returns false if less than or equal to 0
         else { return false; }
     }
 }
