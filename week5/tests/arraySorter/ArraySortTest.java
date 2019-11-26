@@ -83,6 +83,11 @@ abstract class ArraySortTest<T extends Comparable<? super T>> {
     }
 
     @Test
+    void testSortedTwo() {
+        testSorted(2);
+    }
+
+    @Test
     void testSortedTwelve() {
         testSorted(12);
     }

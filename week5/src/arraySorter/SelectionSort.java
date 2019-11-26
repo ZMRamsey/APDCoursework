@@ -38,12 +38,12 @@ public class SelectionSort <T extends Comparable<? super T>> implements ArraySor
             int index = i;
             for (int j = i + 1; j < array.length; j++){
                 if (array[j].compareTo(array[index]) > 0){
-                    index = j;//searching for lowest index
+                    index = j;
                 }
             }
-            T smallerNumber = array[index];
+            T smaller = array[index];
             array[index] = array[i];
-            array[i] = smallerNumber;
+            array[i] = smaller;
         }
         return array;
     }
