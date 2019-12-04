@@ -84,7 +84,16 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
         // This comment also applies to the other get and set methods defined in this interface.
 
         // placeholder return value below - replace with implementation of getValue()
-        return null;
+
+        if (isEmpty())
+        {
+            //throw exception
+            return null;
+        }
+        else
+        {
+            return root.getValue();
+        }
     }
 
     /**
@@ -93,6 +102,10 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
      */
     public void setValue(T value) {
         // implement setValue(T value) here
+        if (isEmpty())
+        {
+            root.setValue(value);
+        }
     }
 
     /**
@@ -101,7 +114,7 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
      */
     public BTree<T> getLeft() {
         // placeholder return value below - replace with implementation of getLeft()
-        return null;
+        return root.getLeft();
     }
 
     /**
@@ -110,6 +123,7 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
      */
     public void setLeft(BTree<T> tree) {
         // implement setLeft(BTree<T> tree) here
+        root.setLeft(tree);
     }
 
     /**
@@ -118,7 +132,7 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
      */
     public BTree<T> getRight() {
         // placeholder return value below - replace with implementation of getRight()
-        return null;
+        return root.getRight();
     }
 
     /**
@@ -127,6 +141,7 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
      */
     public void setRight(BTree<T> tree) {
         // implement setRight(BTree<T> tree) here
+        root.setRight(tree);
     }
 
     /**
@@ -145,6 +160,8 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
      */
     public List<T> traverse() {
         // placeholder return value below - replace with implementation of traverse()
+
+
         return null;
     }
 }

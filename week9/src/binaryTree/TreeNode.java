@@ -54,7 +54,7 @@ public class TreeNode<T extends Comparable<? super T>> {
 
     /**
      * Change the value held in this node.
-     * @param value the new value to be sotred in the node
+     * @param value the new value to be sorted in the node
      */
     public void setValue(T value) {
         this.value = value;
