@@ -70,6 +70,16 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
      */
     public void insert(T value) {
         // implement insert(T value) here
+        TreeNode<T> currentTree = root;
+        if (value.compareTo(getValue()) > 0)
+        {
+            //right side
+            currentTree = root.getRight();
+        }
+        else
+        {
+            //left side
+        }
     }
 
     /**
