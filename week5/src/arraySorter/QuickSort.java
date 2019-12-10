@@ -1,8 +1,8 @@
 package arraySorter;
 
-public class QuickSort <T extends Comparable<? super T>> implements ArraySort<T>{
+public class QuickSort <T extends Comparable<? super T>> implements ArraySort<T> {
 
-    public T[] recursiveSort(T[] array, int left, int right)
+/*    public T[] recursiveSort(T[] array, int left, int right)
     {
         int min = left;
         int max = right;
@@ -43,7 +43,10 @@ public class QuickSort <T extends Comparable<? super T>> implements ArraySort<T>
 
 
         return array;
-    }
+    }*/
+
+    public int min;
+    public int max;
 
     private T[] swap (T[] array, int point1, int point2)
     {
@@ -56,6 +59,22 @@ public class QuickSort <T extends Comparable<? super T>> implements ArraySort<T>
 
     @Override
     public T[] sort(T[] array) {
-        return recursiveSort(array, 0, array.length - 2);
+
+        //get min value
+        //get max value
+        //get pivot value
+
+        //move up from min until find a value that is greater than pivot
+        //move down from max until find a value that is smaller than pivot
+        //swap values
+
+        //when max and min meet, swap that value with pivot
+
+        //if not a single value
+            //call sort on either side of the pivot
+        //else break
+
+
+        return array;
     }
 }
