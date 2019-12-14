@@ -10,7 +10,8 @@ import java.util.Arrays;
  * @author Z Ramsey
  */
 
-public class CleverSearcher extends Searcher
+public class
+CleverSearcher extends Searcher
 {
     CleverSearcher(int[] array, int k) { super(array, k); }
 

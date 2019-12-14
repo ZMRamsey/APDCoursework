@@ -37,7 +37,7 @@ public class SelectionSort <T extends Comparable<? super T>> implements ArraySor
         {
             int index = i;
             for (int j = i + 1; j < array.length; j++){
-                if (array[j].compareTo(array[index]) > 0){
+                if (array[j].compareTo(array[index]) < 0){
                     index = j;
                 }
             }

@@ -2,79 +2,52 @@ package arraySorter;
 
 public class QuickSort <T extends Comparable<? super T>> implements ArraySort<T> {
 
-/*    public T[] recursiveSort(T[] array, int left, int right)
+    private T[] swap(T[] array, int var1, int var2)
     {
-        int min = left;
-        int max = right;
-
-        int pivot = array.length - 1;
-
-        while(true)
-        {
-            if ((array[min].compareTo(array[pivot]) < 0) && (array[max].compareTo(array[pivot]) > 0))
-            {
-                if (array[min].compareTo(array[pivot]) < 0)
-                {
-                    min ++;
-                }
-                if (array[max].compareTo(array[pivot]) > 0)
-                {
-                    max --;
-                }
-            }
-            else
-            {
-                array = swap(array, min, max);
-            }
-
-            if (min >= max)
-            {
-                array = swap(array, min, pivot);
-                {
-                    recursiveSort(array, 0, pivot - 1);
-                    recursiveSort(array, pivot, array.length - 2);
-                }
-            }
-            if (left == right)
-            {
-                break;
-            }
-        }
-
-
-        return array;
-    }*/
-
-    public int min;
-    public int max;
-
-    private T[] swap (T[] array, int point1, int point2)
-    {
-        T temp;
-        temp = array[point1];
-        array[point1] = array[point2];
-        array[point2] = temp;
+        T temp = array[var1];
+        array[var1] = array[var2];
+        array[var2] = temp;
         return array;
     }
 
     @Override
     public T[] sort(T[] array) {
 
-        //get min value
-        //get max value
-        //get pivot value
+        return sort(array, 0, array.length - 1);
+    }
 
-        //move up from min until find a value that is greater than pivot
-        //move down from max until find a value that is smaller than pivot
-        //swap values
+    public T[] sort(T[] array, int lower, int upper)
+    {
+        if (lower < upper)
+        {
+            int split = partition(array, lower, upper);
 
-        //when max and min meet, swap that value with pivot
-
-        //if not a single value
-            //call sort on either side of the pivot
-        //else break
-
-
+            sort(array, lower, split -1);
+            sort(array, split + 1, upper);
+        }
         return array;
+    }
+
+    private int partition(T[] array, int low, int high)
+    {
+        T pivot = array[high];
+        int i = (low - 1);
+        for (int j = low; j < high; j++)
+        {
+            if (array[j].compareTo(pivot) > 0)
+            {
+                i++;
+
+                T temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
+            }
+        }
+        array = swap(array, i+1, high);
+        T temp = array[i+1];
+        array[i+1] = array[high];
+        array[high] = temp;
+
+        return i+1;
     }
 }
