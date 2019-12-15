@@ -5,6 +5,12 @@ import arrayGenerator.IntegerArrayGenerator;
 import scope.IntegerScope;
 import timer.Timer;
 
+
+
+
+
+
+
 public class IntegerSelectionSortTimer extends BubbleSortTimer<Integer> {
     @Override
     public Timer getTimer(int size) {
@@ -12,8 +18,9 @@ public class IntegerSelectionSortTimer extends BubbleSortTimer<Integer> {
         setArray(generator.getArray(size));
         return this;
     }
+
     public static void main(String[] args) {
-        SelectionSortTimer timer = new SelectionSortTimer();
+        IntegerSelectionSortTimer timer = new IntegerSelectionSortTimer();
         timer.timingSequence();
     }
 }
