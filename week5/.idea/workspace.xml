@@ -3,25 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cce9072a-9b37-4257-9e99-cbb2c3cd585a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../Logbook1.pages" beforeDir="false" afterPath="$PROJECT_DIR$/../Logbook1.pages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/searcher/CleverSearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/searcher/CleverSearcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/out/production/week1/searcher/SimpleSearcherTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/out/production/week1/searcher/SimpleSearcherTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/src/searcher/GenericSearcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week1/timer/searcher/SimpleSearcherTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week1/timer/searcher/SimpleSearcherTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week5/arraySorter/BubbleSortTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week5/arraySorter/BubbleSortTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week5/arraySorter/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week5/arraySorter/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week5/arraySorter/QuickSortTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week5/arraySorter/QuickSortTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week5/arraySorter/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week5/arraySorter/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/week5/arraySorter/SelectionSortTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/week5/arraySorter/SelectionSortTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/week5/arraySorter/ArraySortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/week5/arraySorter/ArraySortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/arraySorter/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arraySorter/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/arraySorter/ArraySortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/arraySorter/ArraySortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/arraySorter/BubbleSortTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/timer/arraySorter/BubbleSortTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/arraySorter/QuickSortTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/timer/arraySorter/QuickSortTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timer/arraySorter/SelectionSortTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/timer/arraySorter/SelectionSortTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week7/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +23,7 @@
     <session id="447296168">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="21" />
           <entry key="project.open.time.0" value="7" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.5" value="1" />
@@ -85,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/arraySorter/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="21" column="66" lean-forward="true" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -350,7 +331,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576505481028" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576506175792" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -917,8 +898,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arraySorter/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="66" lean-forward="true" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
         </state>
       </provider>
     </entry>
