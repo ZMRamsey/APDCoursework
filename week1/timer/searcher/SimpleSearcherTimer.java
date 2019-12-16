@@ -53,7 +53,7 @@ public class SimpleSearcherTimer extends SimpleSearcher implements Timer {
      */
     @Override
     public long getMaximumRuntime() {
-        return 5;
+        return 10;
     }
 
     /**

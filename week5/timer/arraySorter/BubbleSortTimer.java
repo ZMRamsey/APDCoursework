@@ -25,7 +25,7 @@ public abstract class BubbleSortTimer<T extends Comparable<? super T>> extends B
 
     @Override
     public long getMaximumRuntime() {
-        return 5;
+        return 10;
     }
 
     @Override
@@ -35,7 +35,7 @@ public abstract class BubbleSortTimer<T extends Comparable<? super T>> extends B
 
     @Override
     public int getMaximumTaskSize() {
-        return 1000000000;
+        return 50000;
     }
 
     @Override

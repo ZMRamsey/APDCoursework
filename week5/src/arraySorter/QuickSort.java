@@ -1,56 +1,61 @@
 package arraySorter;
 
-public class QuickSort <T extends Comparable<? super T>> implements ArraySort<T> {
+public class QuickSort <T extends Comparable<? super T>> implements ArraySort<T>
+{
 
-    private T[] testingArray;
+    private int split;
 
-    private T[] swap(T[] array, int var1, int var2)
+    @Override
+    public T[] sort(T[] array)
     {
-        T temp = array[var1];
-        array[var1] = array[var2];
-        array[var2] = temp;
+
+        //Initial call to work as override
+        return sort(array, 0, array.length - 1);
+    }
+
+    public T[] sort(T[] array, int lower, int upper)
+    {
+        //If there's more than 1 value in the partitioned array, sort high and low
+        if (lower <= upper)
+        {
+            //sort low
+            sort(partition(array, lower, upper), lower, split -1);
+            //sort high
+            sort(partition(array, lower, upper), split + 1, upper);
+        }
         return array;
     }
 
-    @Override
-    public T[] sort(T[] array) {
-
-        testingArray = array;
-        sort(0, array.length - 1);
-        return testingArray;
-    }
-
-    public void sort(int lower, int upper)
+    private T[] partition(T[] array, int low, int high)
     {
-        if (lower < upper)
-        {
-            int split = partition(lower, upper);
-
-            sort(lower, split -1);
-            sort(split + 1, upper);
-        }
-    }
-
-    private int partition(int low, int high)
-    {
-        T pivot = testingArray[high];
+        //set pivot as rightmost value
+        T pivot = array[high];
         int i = (low - 1);
         for (int j = low; j < high; j++)
         {
-            if (testingArray[j].compareTo(pivot) > 0)
+            if (array[j].compareTo(pivot) < 0)
             {
                 i++;
 
-                T temp = testingArray[i];
-                testingArray[i] = testingArray[j];
-                testingArray[j] = temp;
+                T temp = array[i];
+                array[i] = array[j];
+                array[j] = temp;
             }
         }
-        //array = swap(array, i+1, high);
-        T temp = testingArray[i+1];
-        testingArray[i+1] = testingArray[high];
-        testingArray[high] = temp;
+        T temp = array[i+1];
+        array[i+1] = array[high];
+        array[high] = temp;
 
-        return i+1;
+        split = i+1;
+        //printArray(array);
+        return array;
+    }
+
+    void printArray(T[] arr)
+    {
+        int n = arr.length;
+        for (int i=0; i<n; ++i)
+            System.out.print(arr[i]+" ");
+        System.out.println();
     }
 }

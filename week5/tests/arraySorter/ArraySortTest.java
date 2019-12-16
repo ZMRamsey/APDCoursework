@@ -1,6 +1,7 @@
 package arraySorter;
 
 import arrayGenerator.ArrayGenerator;
+import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -78,11 +79,6 @@ abstract class ArraySortTest<T extends Comparable<? super T>> {
     }
 
     @Test
-    void testSortedOne() {
-        testSorted(1);
-    }
-
-    @Test
     void testSortedTwo() {
         testSorted(2);
     }
@@ -95,6 +91,16 @@ abstract class ArraySortTest<T extends Comparable<? super T>> {
     @Test
     void testSortedThousand() {
         testSorted(1000);
+    }
+
+    @Test
+    void testSortedFour() {
+        testSorted(4);
+    }
+
+    @Test
+    void testSortedHundred() {
+        testSorted(100);
     }
 
     @Test
