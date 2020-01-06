@@ -1,5 +1,6 @@
 package binaryTree;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -26,7 +27,12 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
     /**
      * The root node of this tree.
      */
-    private TreeNode<T> root; 
+    private TreeNode<T> root;
+
+    /**
+     * The values in the tree from the last traversal.
+     */
+    private ArrayList<T> values = new ArrayList<>();
 
     /**
      * Construct an empty tree.
@@ -51,8 +57,10 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
      * @param left the tree's left subtree.
      * @param right the tree's right subtree.
      */
-    public BinaryTree(T value,BinaryTree<T> left,BinaryTree<T> right) {
+    public BinaryTree(T value,BinaryTree<T> left,BinaryTree<T> right)
+    {
         root = new TreeNode<>(value,left,right);
+        nodeCount = 3;
     }
 
     /**
@@ -70,11 +78,14 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
      */
     public void insert(T value) {
         // implement insert(T value) here
+        //until there's an empty slot
+        //check if higher or lower than current value
+        //move down level either left or right
+
         TreeNode<T> currentTree = root;
         if (value.compareTo(getValue()) > 0)
         {
             //right side
-            currentTree = root.getRight();
         }
         else
         {
@@ -89,7 +100,7 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
     public T getValue() {
         // Note: it might make sense to define getValue() to throw a (custom) exception if an attempt
         // is made to access a value from an empty tree.
-        // However, since a tree is empty iff its root node is null, it is also acceptable to rely
+        // However, since a tree is empty if its root node is null, it is also acceptable to rely
         // on Java's NullPointerException.
         // This comment also applies to the other get and set methods defined in this interface.
 
@@ -157,10 +168,15 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
     /**
      * Check if the tree contains a given value.
      * @param value the value to be checked.
-     * @return true iff the value is in the tree.
+     * @return true if the value is in the tree.
      */
     public boolean contains(T value) {
         // placeholder return value below - replace with implementation of contains(T value)
+        //traverse tree
+        //search resulting list to try to find value
+
+        traverse();
+
         return false;
     }
 
@@ -168,11 +184,27 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
      * Traverse the tree, producing a list of all the values contained in the tree.
      * @return a list of all the values in the tree.
      */
-    public List<T> traverse() {
+    public List<T> traverse(BTree<T> start) {
         // placeholder return value below - replace with implementation of traverse()
+        //go left
+        //if you can't go left, store value and go right
+        //if you can't go right, store value and go up
+        //if you land on a stored value, go straight up
+        //if you go up from root, finish
 
+        if (start.getLeft() != null)
+        {
+            traverse(start.getLeft());
+        }
 
-        return null;
+        //store value
+
+        if (start.getRight() != null)
+        {
+            traverse(start.getRight());
+        }
+
+        return values;
     }
 }
 

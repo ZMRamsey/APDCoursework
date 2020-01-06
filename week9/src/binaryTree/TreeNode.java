@@ -9,14 +9,17 @@ package binaryTree;
  * @version December 2019.
  */
 public class TreeNode<T extends Comparable<? super T>> {
+
     /**
      * The value stored in this node.
      */
     private T value;
+
     /**
      * The left subtree of this node.
      */
     private BTree<T> left;
+
     /**
      * The right subtree of this node.
      */
