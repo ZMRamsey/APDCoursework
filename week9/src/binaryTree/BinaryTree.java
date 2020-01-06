@@ -1,5 +1,7 @@
 package binaryTree;
 
+import com.sun.source.tree.Tree;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,11 +32,6 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
     private TreeNode<T> root;
 
     /**
-     * The values in the tree from the last traversal.
-     */
-    private ArrayList<T> values = new ArrayList<>();
-
-    /**
      * Construct an empty tree.
      */
     public BinaryTree() {
@@ -60,7 +57,6 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
     public BinaryTree(T value,BinaryTree<T> left,BinaryTree<T> right)
     {
         root = new TreeNode<>(value,left,right);
-        nodeCount = 3;
     }
 
     /**
@@ -184,7 +180,7 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
      * Traverse the tree, producing a list of all the values contained in the tree.
      * @return a list of all the values in the tree.
      */
-    public List<T> traverse(BTree<T> start) {
+    public List<T> traverse() {
         // placeholder return value below - replace with implementation of traverse()
         //go left
         //if you can't go left, store value and go right
@@ -192,19 +188,26 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
         //if you land on a stored value, go straight up
         //if you go up from root, finish
 
-        if (start.getLeft() != null)
+        ArrayList<T> values = new ArrayList<>();
+
+        BTree<T> currentTree;
+        TreeNode<T> currentNode = root;
+
+        while (currentNode.getLeft() != null)
         {
-            traverse(start.getLeft());
+            currentTree = currentNode.getLeft();
+            currentNode = currentTree.g
         }
 
         //store value
+        values.add(current.getValue());
 
-        if (start.getRight() != null)
+        if (current.getRight() != null)
         {
-            traverse(start.getRight());
+            //move down right path
         }
 
-        return values;
+        return null;
     }
 }
 
