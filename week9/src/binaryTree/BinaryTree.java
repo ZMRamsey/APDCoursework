@@ -196,7 +196,7 @@ public class BinaryTree<T extends Comparable<? super T>> implements BTree<T> {
         while (currentNode.getLeft() != null)
         {
             currentTree = currentNode.getLeft();
-            currentNode = currentTree.g
+            //currentNode = currentTree.g
         }
 
         //store value
