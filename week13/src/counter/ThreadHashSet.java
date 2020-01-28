@@ -1,6 +1,7 @@
 package counter;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 /**
  * An implementation of thread sets.
@@ -20,6 +21,11 @@ public class ThreadHashSet<T extends Thread> extends HashSet<T> implements Threa
      */
     public void startSet() {
         // Implement startSet here.
+        Iterator<T> it = this.iterator();
+        while (it.hasNext())
+        {
+            it.next().start();
+        }
     }
 
     /**
@@ -28,6 +34,11 @@ public class ThreadHashSet<T extends Thread> extends HashSet<T> implements Threa
      */
     public void joinSet() throws InterruptedException {
         // Implement joinSet here.
+        Iterator<T> it = this.iterator();
+        while (it.hasNext())
+        {
+            it.next().join();
+        }
     }
 
     /**

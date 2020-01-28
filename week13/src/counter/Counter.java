@@ -221,6 +221,12 @@ public class Counter extends AbstractCounter {
         // finished, step the counter.
         // Use the methods defined above to implement this behaviour.
         // All of your code should come before the call of endCount(), below.
+
+        startCount();
+        while (!isCountFinished())
+        {
+            stepCount();
+        }
         endCount();
     }
 }
