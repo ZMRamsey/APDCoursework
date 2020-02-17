@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b99032a-3c86-467f-a823-f42f5542fda2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../week10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week10/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week10/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week13/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week13/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week13/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week13/bin/counter/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week13/bin/counter/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week13/bin/counter/ThreadHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week13/bin/counter/ThreadHashSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week13/bin/ui/CountersUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week13/bin/ui/CountersUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week13/src/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week13/src/counter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week13/src/counter/ThreadHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week13/src/counter/ThreadHashSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Bolivia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Bolivia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Peru.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Peru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/RailwaySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/RailwaySystem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,14 +47,46 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1076261762">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="701" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="701" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Bolivia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="432">
+              <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -50,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/RailwaySystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
-              <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+            <state relative-caret-position="551">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/processes/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="34">
               <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
@@ -71,7 +115,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="51">
               <caret line="3" column="100" selection-start-line="3" selection-start-column="100" selection-end-line="3" selection-end-column="100" />
             </state>
           </provider>
@@ -80,17 +124,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/package-info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="17">
               <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Peru.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="33" selection-start-line="29" selection-end-line="33" />
+            <state relative-caret-position="347">
+              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,7 +145,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Railway.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2775">
+            <state relative-caret-position="840">
               <caret line="196" column="7" selection-start-line="196" selection-start-column="7" selection-end-line="196" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,7 +157,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/tools/Clock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="102">
               <caret line="8" column="110" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -122,7 +169,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/tools/Delay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="425">
               <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
             </state>
           </provider>
@@ -192,16 +239,16 @@
         <option value="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/package-info.java" />
         <option value="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/tools/Clock.java" />
         <option value="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Railway.java" />
-        <option value="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/RailwaySystem.java" />
-        <option value="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Peru.java" />
-        <option value="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Bolivia.java" />
         <option value="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Basket.java" />
+        <option value="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/RailwaySystem.java" />
+        <option value="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Bolivia.java" />
+        <option value="$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Peru.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="689" />
     <option name="height" value="819" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -210,6 +257,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,14 +288,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580834600033" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581959958574" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -380,10 +427,10 @@
     <option name="totallyTimeSpent" value="3020000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -393,8 +440,8 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287483" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4924078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -403,7 +450,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -497,38 +544,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/processes/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="34">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="51">
           <caret line="3" column="100" selection-start-line="3" selection-start-column="100" selection-end-line="3" selection-end-column="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="17">
           <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Railway.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2775">
-          <caret line="196" column="7" selection-start-line="196" selection-start-column="7" selection-end-line="196" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/tools/Clock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="102">
           <caret line="8" column="110" selection-start-line="8" selection-start-column="110" selection-end-line="8" selection-end-column="110" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -538,15 +575,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/tools/Delay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
+        <state relative-caret-position="425">
           <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/RailwaySystem.java">
+    <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Railway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="119" lean-forward="true" selection-start-line="119" selection-end-line="119" />
+        <state relative-caret-position="840">
+          <caret line="196" column="7" selection-start-line="196" selection-start-column="7" selection-end-line="196" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -560,17 +597,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Peru.java">
+    <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/RailwaySystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" selection-start-line="29" selection-end-line="33" />
+        <state relative-caret-position="551">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Bolivia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="432">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ferrocarrilesDeAmericaDelSur/railways/Peru.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

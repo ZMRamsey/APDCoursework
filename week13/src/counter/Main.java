@@ -21,8 +21,8 @@ public class Main {
 		 * behaviour is visible.
 		 */
         ThreadSet<Counter> counters = new ThreadHashSet<>();  // will contain the counters
-        counters.add(new Counter(" up ",5,10)); // counter "up" counts from 5 to 10
-        counters.add(new Counter("down",5,0)); // counter "down" counts from 5 to 0
+        counters.add(new Counter(" up ",0,10)); // counter "up" counts from 5 to 10
+        counters.add(new Counter("down",10,0)); // counter "down" counts from 5 to 0
         Counter.traceOn(); // switch tracing on
         Counter.setDelay(0,1); // set a delay from 0.0 to 0.1 seconds
         Counter.resetTraceLineNumber();
