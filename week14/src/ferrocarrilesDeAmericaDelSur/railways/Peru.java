@@ -23,11 +23,13 @@ public class Peru extends Railway {
      * Run the train on the railway.
 	 * This method currently does not provide any synchronisation to avoid two trains being in the pass at the same time.
      */
+
     public void runTrain() throws RailwaySystemError {
     	Clock clock = getRailwaySystem().getClock();
     	Railway nextRailway = getRailwaySystem().getNextRailway(this);
 
     	while (!clock.timeOut()) {
+
     		//Peru's turn is no stone in basket
 			choochoo();
 

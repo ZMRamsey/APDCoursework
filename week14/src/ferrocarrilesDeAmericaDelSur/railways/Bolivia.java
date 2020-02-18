@@ -31,7 +31,7 @@ public class Bolivia extends Railway {
 
     	while (!clock.timeOut()) {
 
-    		//bolivia turn is stone in basket
+    		//Bolivia turn is stone in basket
 			choochoo();
 
 			getBasket().putStone();
