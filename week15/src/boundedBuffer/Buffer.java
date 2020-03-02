@@ -53,8 +53,8 @@ public class Buffer<T> extends AbstractBuffer<T> {
     public boolean put(T item) throws BufferError, SemaphoreError {
         boolean succeeded = false;
         try {
-            noOfSpaces.poll();  // is there space in the buffer?  noOfSpaces
-            criticalSection.poll();   // is the buffer available?  criticalSection
+            criticalSection.poll();  // is there space in the buffer?  noOfSpaces
+            noOfSpaces.poll();   // is the buffer available?  criticalSection
             succeeded = putItem(item);    // add the data item
             criticalSection.vote();   // make the buffer available again  criticalSection
             noOfElements.vote(); // there is now one more element in the buffer  noOfElements
