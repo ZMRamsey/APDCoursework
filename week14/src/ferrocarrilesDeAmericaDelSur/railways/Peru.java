@@ -39,7 +39,7 @@ public class Peru extends Railway {
 				if (getSharedBasket().hasStone())
 				{
 					getBasket().takeStone();
-					while (!getSharedBasket().hasStone())
+					while (getSharedBasket().hasStone())
 					{
 						siesta();
 					}

@@ -24,7 +24,6 @@ public class ThreadHashSet<T extends Thread> extends HashSet<T> implements Threa
         Iterator<T> it = this.iterator();
         while (it.hasNext())
         {
-            System.out.println("start uwu help me");
             it.next().start();
         }
     }

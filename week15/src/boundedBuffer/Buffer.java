@@ -53,11 +53,11 @@ public class Buffer<T> extends AbstractBuffer<T> {
     public boolean put(T item) throws BufferError, SemaphoreError {
         boolean succeeded = false;
         try {
-            criticalSection.poll();  // is there space in the buffer?
-            noOfSpaces.poll();   // is the buffer available?
+            noOfSpaces.poll();  // is there space in the buffer?  noOfSpaces
+            criticalSection.poll();   // is the buffer available?  criticalSection
             succeeded = putItem(item);    // add the data item
-            criticalSection.vote();   // make the buffer available again
-            noOfElements.vote(); // there is now one more element in the buffer
+            criticalSection.vote();   // make the buffer available again  criticalSection
+            noOfElements.vote(); // there is now one more element in the buffer  noOfElements
         } catch (InterruptedException ie) {
             throw new BufferError("Buffer: Data item " + item + " could not be added to the buffer.\n" +
                     "\t" + ie.getMessage());
@@ -76,11 +76,11 @@ public class Buffer<T> extends AbstractBuffer<T> {
     public T get() throws BufferError, SemaphoreError {
         T item;
         try {
-            criticalSection.poll(); // is there at least one data item in the buffer?
-            noOfElements.poll();   // is the buffer available?
+            noOfElements.poll(); // is there at least one data item in the buffer? noOfElements
+            criticalSection.poll();   // is the buffer available? criticalSection
             item = getItem(); // add the data item
-            criticalSection.vote();   // make the buffer available again
-            noOfSpaces.vote();  // there is now one more space in the buffer
+            criticalSection.vote();   // make the buffer available again  criticalSection
+            noOfSpaces.vote();  // there is now one more space in the buffer  noOfSpaces
         } catch (InterruptedException ie) {
             throw new BufferError("Buffer: Data item could not be retrieved from the buffer.\n" +
                     "\t" + ie.getMessage());

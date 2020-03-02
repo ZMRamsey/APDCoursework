@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a9136a-4c22-40d5-b019-118ecc468138" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../week10/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week10/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week10/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week16/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week16/src/resourceManager/LockResourceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Logbook3.pages" beforeDir="false" afterPath="$PROJECT_DIR$/../Logbook3.pages" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/counter/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/counter/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/counter/ThreadHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/counter/ThreadHashSet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/ui/CountersUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ui/CountersUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/counter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/counter/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/counter/ThreadHashSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/counter/ThreadHashSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week14/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week14/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week14/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week14/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week14/src/ferrocarrilesDeAmericaDelSur/railways/Bolivia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week14/src/ferrocarrilesDeAmericaDelSur/railways/Bolivia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week14/bin/ferrocarrilesDeAmericaDelSur/railways/Peru.class" beforeDir="false" afterPath="$PROJECT_DIR$/../week14/bin/ferrocarrilesDeAmericaDelSur/railways/Peru.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../week14/src/ferrocarrilesDeAmericaDelSur/railways/Peru.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week14/src/ferrocarrilesDeAmericaDelSur/railways/Peru.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week14/src/ferrocarrilesDeAmericaDelSur/railways/RailwaySystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week14/src/ferrocarrilesDeAmericaDelSur/railways/RailwaySystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week16/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week16/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week16/src/resourceManager/ResourceSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../week16/src/resourceManager/ResourceSystem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,10 +30,11 @@
     <session id="870862041">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -97,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/counter/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="24" column="84" lean-forward="true" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -106,7 +106,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/counter/Counter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
+            <state relative-caret-position="753">
               <caret line="230" column="5" selection-start-line="230" selection-start-column="5" selection-end-line="230" selection-end-column="5" />
             </state>
           </provider>
@@ -115,8 +115,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/counter/ThreadHashSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="772">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="473">
+              <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,10 +194,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="689" />
-    <option name="height" value="819" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-411" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1190" />
+    <option name="height" value="1002" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -486,9 +487,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-411" y="-1057" width="1190" height="1002" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1444563" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18379791" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -498,7 +500,7 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275218" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34273317" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34196892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -575,9 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,12 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2035">
           <caret line="449" column="47" selection-start-line="449" selection-start-column="47" selection-end-line="449" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#909#918#0" expanded="true" />
-            <element signature="e#31958#31959#0" expanded="true" />
-            <element signature="e#32007#32008#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,22 +652,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/counter/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="360">
+          <caret line="24" column="84" lean-forward="true" selection-start-line="24" selection-start-column="84" selection-end-line="24" selection-end-column="84" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/counter/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
+        <state relative-caret-position="753">
           <caret line="230" column="5" selection-start-line="230" selection-start-column="5" selection-end-line="230" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/counter/ThreadHashSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="473">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
